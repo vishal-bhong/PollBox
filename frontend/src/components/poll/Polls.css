@@ -1,0 +1,12 @@
+.poll {
+    box-shadow: 10px 10px 10px;
+    background-color: beige;
+}
+
+.pollTitle {
+    color: brown;
+}
+
+.pollDesc {
+    text-indent: 2em;
+}

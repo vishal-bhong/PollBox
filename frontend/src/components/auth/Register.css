@@ -1,0 +1,11 @@
+#registerPage {
+    /* height: 410px; */
+    min-height: 420px;
+    max-height: 480px;
+    padding: 1%;
+    display: flexbox;
+    justify-content: center;
+    background-color: rgb(107, 184, 130);
+    box-shadow: 11px 11px 8px;
+    border-radius: 9%;
+}

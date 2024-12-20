@@ -1,0 +1,14 @@
+#logincard {
+    height: 350px;
+    background-color: rgb(107, 184, 130);
+    display: flexbox;
+    justify-content: center;
+    padding: 1%;
+    box-shadow: 11px 11px 8px;
+    
+}   
+
+#loninButton {
+    margin-top: 30px;
+    justify-self: flex-start;
+}

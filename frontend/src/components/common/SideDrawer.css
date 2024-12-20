@@ -1,0 +1,18 @@
+
+#offcanvas {
+    width: 16%;
+}
+
+#nav-item {
+    display: flex;
+    align-items: start;
+}
+
+#nav-item-name {
+    color: white;
+}
+
+#nav-item-name:hover {
+    background-color: white;
+    color: black;
+}

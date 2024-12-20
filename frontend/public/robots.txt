@@ -1,0 +1,144 @@
+polling-system-frontend/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── logo.png
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── styles/
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Header.js
+│   │   │   ├── Header.css
+│   │   │   ├── SideDrawer.js
+│   │   │   ├── SideDrawer.css
+│   │   │   ├── Card.js
+│   │   │   ├── Card.css
+│   │   │   └── Advertisement.js
+│   │   │   └── Advertisement.css
+│   │   ├── auth/
+│   │   │   ├── Login.js
+│   │   │   ├── Login.css
+│   │   │   ├── Register.js
+│   │   │   ├── Register.css
+│   │   ├── poll/
+│   │   │   ├── PollCreation.js
+│   │   │   ├── PollCreation.css
+│   │   │   ├── PollVoting.js
+│   │   │   ├── PollVoting.css
+│   │   │   ├── PollResults.js
+│   │   │   ├── PollResults.css
+│   ├── pages/
+│   │   ├── HomePage.js
+│   │   ├── HomePage.css
+│   │   ├── CustomerDashboardPage.js
+│   │   ├── CustomerDashboardPage.css
+│   ├── services/
+│   │   ├── authService.js
+│   │   ├── pollService.js
+│   │   └── notificationService.js
+│   ├── store/
+│   │   ├── actions/
+│   │   │   ├── authActions.js
+│   │   │   ├── pollActions.js
+│   │   ├── reducers/
+│   │   │   ├── authReducer.js
+│   │   │   ├── pollReducer.js
+│   │   ├── store.js
+│   ├── utils/
+│   │   ├── validation.js
+│   ├── App.js
+│   ├── index.js
+│   ├── App.css
+│   └── Routes.js
+└── package.json
+
+
+
+Explanation of Folders and Files
+public/
+index.html: Main HTML template.
+
+favicon.ico: Favicon for the application.
+
+logo.png: Logo for the application.
+
+src/assets/
+images/: Contains image assets.
+
+styles/: Contains global styles and CSS files.
+
+src/components/common/
+Header.js: Header component.
+
+Header.css: Styles for the Header component.
+
+SideDrawer.js: Side drawer component.
+
+SideDrawer.css: Styles for the SideDrawer component.
+
+Card.js: Card component.
+
+Card.css: Styles for the Card component.
+
+Advertisement.js: Advertisement component.
+
+Advertisement.css: Styles for the Advertisement component.
+
+src/components/auth/
+Login.js: Login component.
+
+Login.css: Styles for the Login component.
+
+Register.js: Registration component.
+
+Register.css: Styles for the Registration component.
+
+src/components/poll/
+PollCreation.js: Poll creation component.
+
+PollCreation.css: Styles for the PollCreation component.
+
+PollVoting.js: Poll voting component.
+
+PollVoting.css: Styles for the PollVoting component.
+
+PollResults.js: Poll results component.
+
+PollResults.css: Styles for the PollResults component.
+
+src/pages/
+HomePage.js: Home page component.
+
+HomePage.css: Styles for the HomePage component.
+
+CustomerDashboardPage.js: Customer dashboard page component.
+
+CustomerDashboardPage.css: Styles for the CustomerDashboardPage component.
+
+src/services/
+authService.js: Service for handling authentication.
+
+pollService.js: Service for managing polls.
+
+notificationService.js: Service for sending notifications.
+
+src/store/
+actions/: Contains action creators for Redux.
+
+reducers/: Contains reducers for Redux.
+
+store.js: Configures and exports the Redux store.
+
+src/utils/
+validation.js: Utility functions for validation.
+
+src/
+App.js: Main application component.
+
+index.js: Entry point for the application.
+
+App.css: Global styles for the application.
+
+Routes.js: Defines the application's routing using React Router.
